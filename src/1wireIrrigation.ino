@@ -3,6 +3,8 @@
 #include "DS2408.h"
 #include "RCSwitch.h"
 
+// v.4 2024.07.20 -> Prüfung des Kommandos 0x5A ob Daten korrekt invertiert wurden (DS2408.cpp)
+
 #define DEBUG                   0
 #define TEST_RELAYS             0
 #define TEST_RC_SENDER          0
